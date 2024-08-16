@@ -20,8 +20,10 @@ function App() {
               img={img}
               title={title}
               price={price}
-              desc={desc}
+              desc={`${desc.substring(0,250)}...`
+            }
             />
+            
           );
         })}
       </div>
