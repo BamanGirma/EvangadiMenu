@@ -9,7 +9,6 @@ export default class FoodItem extends Component {
           <div className="img">
             <img src={img} />
           </div>
-          foods-container
           <div className="title-price">
             <h3>{title}</h3>
             <p>{price}</p>
